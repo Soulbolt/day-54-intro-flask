@@ -22,4 +22,4 @@ def say_greeting():
 
 # Another way to call/use the decorator
 decorated_function = delay_decorator(say_greeting)
-decorated_function()
+delay_decorator()
